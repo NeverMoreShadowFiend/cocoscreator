@@ -1,0 +1,134 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "rolebreak.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "lv1_bomb_1_1": {
+      "__uuid__": "bce931e2-689d-4dc5-884d-5c7275172897"
+    },
+    "lv1_bomb_1_2": {
+      "__uuid__": "4fd20028-0c01-4497-97b4-34a635544f95"
+    },
+    "lv1_bomb_1_3": {
+      "__uuid__": "29d7085e-d4e5-4fbf-baab-5b899f10649e"
+    },
+    "lv1_bomb_1_4": {
+      "__uuid__": "6294cbbc-0db4-476f-8b8b-d30c27f5454b"
+    },
+    "lv1_bomb_1_5": {
+      "__uuid__": "9e30d72f-bcaa-4643-b131-ddda6575c891"
+    },
+    "lv1_bomb_1_6": {
+      "__uuid__": "991ddcb9-d8e6-4206-a781-13469409fea8"
+    },
+    "lv1_bomb_1_7": {
+      "__uuid__": "319dad56-b7b0-401c-94e5-70b68e158503"
+    },
+    "lv2_bomb_1_1": {
+      "__uuid__": "63a6779b-5430-45c9-b1fa-0406b0f2512f"
+    },
+    "lv2_bomb_1_2": {
+      "__uuid__": "a30e59e3-90ef-4681-a8a6-0e5d268d6918"
+    },
+    "lv2_bomb_1_3": {
+      "__uuid__": "e07b760f-1d2a-401a-ba02-06baca8ff375"
+    },
+    "lv2_bomb_1_4": {
+      "__uuid__": "b10e5a09-c64b-4d8c-8b34-d82fcc7d5475"
+    },
+    "lv2_bomb_1_5": {
+      "__uuid__": "4d26b2ad-137b-4c79-886c-328b5ecdce27"
+    },
+    "lv2_bomb_1_6": {
+      "__uuid__": "30eaaffc-3d85-4108-b975-5107d4eda012"
+    },
+    "lv2_bomb_1_7": {
+      "__uuid__": "247c6587-f896-4737-9775-970dd41f94f3"
+    },
+    "lv3_bomb_1_1": {
+      "__uuid__": "93c37e80-f07e-4777-b5c1-839a376cf832"
+    },
+    "lv3_bomb_1_2": {
+      "__uuid__": "f5b9ea1a-0e77-4f10-aab2-824d01a9e929"
+    },
+    "lv3_bomb_1_3": {
+      "__uuid__": "1e3bb33c-315a-4b49-9f4e-7ef4ecb5ce2d"
+    },
+    "lv3_bomb_1_4": {
+      "__uuid__": "096f3a96-bc3f-4e1f-90fe-f95654521e17"
+    },
+    "lv3_bomb_1_5": {
+      "__uuid__": "43b3e6c9-daab-47ab-b599-885f35bf1fd0"
+    },
+    "lv3_bomb_1_6": {
+      "__uuid__": "9e1c637e-05fe-4601-a0f0-9692a37ddd05"
+    },
+    "lv3_bomb_1_7": {
+      "__uuid__": "9f630448-1cfc-4505-aaf2-9665fa555436"
+    },
+    "lv4_bomb_1_1": {
+      "__uuid__": "880e84ef-fddc-4249-9273-7a8af17f2bf7"
+    },
+    "lv4_bomb_1_2": {
+      "__uuid__": "e5674c3b-2c2e-42ed-b7ec-e95d8ce1c63a"
+    },
+    "lv4_bomb_1_3": {
+      "__uuid__": "d524c1ce-0832-41ff-be12-7b642e07f1bb"
+    },
+    "lv4_bomb_1_4": {
+      "__uuid__": "4c30ecf8-0770-44d6-a81a-102562b75504"
+    },
+    "lv4_bomb_1_5": {
+      "__uuid__": "11ad3a22-0f4b-4b8a-93e0-71f5520735e4"
+    },
+    "lv4_bomb_1_6": {
+      "__uuid__": "52f4280c-7822-4bd7-96e1-52b92d6d9c7a"
+    },
+    "lv4_bomb_1_7": {
+      "__uuid__": "d6ddae93-b476-413e-9506-aef85dd86e34"
+    },
+    "lv5_bomb_1_1": {
+      "__uuid__": "4ccc5d15-6951-4bc8-9c5b-68dc4e219df4"
+    },
+    "lv5_bomb_1_2": {
+      "__uuid__": "dd5e1906-35b0-4469-86f6-e465580edbec"
+    },
+    "lv5_bomb_1_3": {
+      "__uuid__": "90848856-93cf-442a-bae1-740a507b758b"
+    },
+    "lv5_bomb_1_4": {
+      "__uuid__": "88f9ae39-73a6-4648-a57c-dcd9d3b0e780"
+    },
+    "lv5_bomb_1_5": {
+      "__uuid__": "1d004ba8-e4f1-4842-a746-06f936335897"
+    },
+    "lv5_bomb_1_6": {
+      "__uuid__": "762704ee-061b-408a-af41-fd4d9d189bbe"
+    },
+    "lv5_bomb_1_7": {
+      "__uuid__": "0b8d86e7-2039-4684-a955-38ca7584dded"
+    },
+    "lv6_bomb_1_1": {
+      "__uuid__": "e646061c-eac2-4cfd-80eb-7dc1d3890319"
+    },
+    "lv6_bomb_1_2": {
+      "__uuid__": "9389602b-563b-402f-99c4-8354a597b9c9"
+    },
+    "lv6_bomb_1_3": {
+      "__uuid__": "962806fb-7d8d-43ca-b5d9-33ed19bc6183"
+    },
+    "lv6_bomb_1_4": {
+      "__uuid__": "2044f8bc-b331-4483-905e-b50960ea4c7d"
+    },
+    "lv6_bomb_1_5": {
+      "__uuid__": "22dfd6c3-fdd2-420e-bf04-02756361be58"
+    },
+    "lv6_bomb_1_6": {
+      "__uuid__": "3ea87fc8-da75-4c12-9e5c-f6c1608fdb05"
+    },
+    "lv6_bomb_1_7": {
+      "__uuid__": "e0c8a7fa-6e4c-4ae6-9352-7cbb556865c1"
+    }
+  }
+}

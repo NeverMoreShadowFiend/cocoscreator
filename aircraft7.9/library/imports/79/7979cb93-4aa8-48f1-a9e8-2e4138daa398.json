@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "airdrop_bullet_2_1",
+    "texture": "18283332-0adc-46f5-8ac9-45a5e8f76356",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      70,
+      40
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      70,
+      40
+    ]
+  }
+}

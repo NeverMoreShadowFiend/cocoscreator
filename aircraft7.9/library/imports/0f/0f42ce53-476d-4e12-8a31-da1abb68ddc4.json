@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "speed",
+    "texture": "20455961-819d-4409-87e1-9b8cf36db93a",
+    "atlas": "",
+    "rect": [
+      45,
+      39,
+      50,
+      37
+    ],
+    "offset": [
+      2,
+      0.5
+    ],
+    "originalSize": [
+      136,
+      116
+    ]
+  }
+}

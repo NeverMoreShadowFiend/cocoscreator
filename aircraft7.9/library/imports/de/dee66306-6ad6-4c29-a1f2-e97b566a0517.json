@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hero5_2",
+    "texture": "76e6fac4-9db6-461a-90db-124a1648bfab",
+    "atlas": "",
+    "rect": [
+      8,
+      0,
+      101,
+      129
+    ],
+    "offset": [
+      1,
+      0
+    ],
+    "originalSize": [
+      115,
+      129
+    ]
+  }
+}

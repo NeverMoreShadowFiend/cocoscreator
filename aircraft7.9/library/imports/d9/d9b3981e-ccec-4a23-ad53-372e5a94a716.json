@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "rolenormal.plist",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_spriteFrames": {
+    "LV1_normal_1_1": {
+      "__uuid__": "90980ea5-f6a4-47cf-a334-471b8a2c68e9"
+    },
+    "LV1_normal_1_2": {
+      "__uuid__": "cb0a4cb3-df1b-4a27-a998-bb1ebf41826a"
+    },
+    "LV2_normal_1_1": {
+      "__uuid__": "5058d33d-74d1-461f-a561-997e37c5b911"
+    },
+    "LV2_normal_1_2": {
+      "__uuid__": "17041230-1eeb-4009-a181-85815f2aaa8a"
+    },
+    "LV3_normal_1_1": {
+      "__uuid__": "5df1ba6e-4412-4559-9c1b-fb02ce2d3a56"
+    },
+    "LV3_normal_1_2": {
+      "__uuid__": "e3f93f96-c176-4c64-bcf2-93fe736f0b55"
+    },
+    "LV4_normal_1_1": {
+      "__uuid__": "bdef2741-57a8-4414-a38a-b1e73cd79969"
+    },
+    "LV4_normal_1_2": {
+      "__uuid__": "71f033ad-58ae-420b-8be0-a9f6ca6d4c52"
+    },
+    "LV5_normal_1_1": {
+      "__uuid__": "1e6ca025-7ed7-41b7-a70c-7c8f845d676d"
+    },
+    "LV5_normal_1_2": {
+      "__uuid__": "253500ad-b184-44a4-8ee8-f959138f0135"
+    },
+    "LV6_normal_1_1": {
+      "__uuid__": "3a4ecfe0-acc0-4512-affd-568187660916"
+    },
+    "LV6_normal_1_2": {
+      "__uuid__": "0baa49e9-1996-4bca-8827-e021b260f9f1"
+    }
+  }
+}

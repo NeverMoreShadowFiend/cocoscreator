@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_power_2_2",
+    "texture": "dacd4b0c-477a-4bba-bbcc-a74a74b3ed6d",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      543,
+      60
+    ],
+    "offset": [
+      -0.5,
+      -1
+    ],
+    "originalSize": [
+      544,
+      66
+    ]
+  }
+}

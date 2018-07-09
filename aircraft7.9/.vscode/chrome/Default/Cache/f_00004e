@@ -1,0 +1,723 @@
+window._CCSettings = {
+    designWidth: 640,
+    designHeight: 1136,
+    groupList: [
+        "default",
+        "bullet",
+        "enemy",
+        "hero",
+        "ufo",
+        "prefabenemy"
+    ],
+    collisionMatrix: [
+        [
+            false,
+            false,
+            false,
+            false,
+            false
+        ],
+        [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false
+        ],
+        [
+            false,
+            true,
+            false,
+            true,
+            false
+        ],
+        [
+            false,
+            false,
+            true,
+            false,
+            true,
+            false
+        ],
+        [
+            false,
+            false,
+            false,
+            true,
+            false
+        ],
+        [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+        ]
+    ],
+    platform: "web-desktop",
+    scripts: [
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/bullet.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/bulletGroup.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/common.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/end.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/enemy.js"
+        },
+        {
+            deps: {
+                main: 9
+            },
+            file: "preview-scripts/assets/Script/enemyGroup.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/globals.js"
+        },
+        {
+            deps: {
+                main: 9,
+                bulletGroup: 1
+            },
+            file: "preview-scripts/assets/Script/hero.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/historyScore.js"
+        },
+        {
+            deps: {
+                enemyGroup: 5,
+                prefabenemyGroup: 10,
+                hero: 7,
+                ufoGroup: 14,
+                bulletGroup: 1
+            },
+            file: "preview-scripts/assets/Script/main.js"
+        },
+        {
+            deps: {
+                main: 9
+            },
+            file: "preview-scripts/assets/Script/prefabenemyGroup.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/scoreItemTemplate.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/start.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/ufo.js"
+        },
+        {
+            deps: {},
+            file: "preview-scripts/assets/Script/ufoGroup.js"
+        }
+    ],
+    rawAssets: {
+        assets: {
+            "6aa0aa6a-ebee-4155-a088-a687a6aadec4": [
+                "Texture/HelloWorld.png",
+                "cc.Texture2D"
+            ],
+            "1f9fa4a2-b58c-4f73-8ccb-3a7fbabafddc": [
+                "Texture/btnbg.png",
+                "cc.Texture2D"
+            ],
+            "7d941927-112c-4d6c-9ae1-084ecc7eb5fb": [
+                "Texture/btnbgPress.png",
+                "cc.Texture2D"
+            ],
+            "5ded2452-d5e9-4f10-948f-ef904ca1d708": [
+                "Texture/hero1_1.png",
+                "cc.Texture2D"
+            ],
+            "793b0001-3261-40bf-ba1e-755c4010f30a": [
+                "Texture/hero1_2.png",
+                "cc.Texture2D"
+            ],
+            "d9516e68-70b3-4f29-95a0-6c80eded740c": [
+                "Texture/hero2_1.png",
+                "cc.Texture2D"
+            ],
+            "b111a125-233c-4133-8e76-77773057bdf8": [
+                "Texture/hero2_2.png",
+                "cc.Texture2D"
+            ],
+            "3215b622-e06b-4572-8ce5-09cc7a119e49": [
+                "Texture/hero3_1.png",
+                "cc.Texture2D"
+            ],
+            "1ed0bdcd-9816-4fcd-8b93-5134213b08dc": [
+                "Texture/hero3_2.png",
+                "cc.Texture2D"
+            ],
+            "33487622-339c-44c1-9a89-3108c06bbf1b": [
+                "Texture/hero4_1.png",
+                "cc.Texture2D"
+            ],
+            "34604ef1-0e71-4497-8019-233e487c6791": [
+                "Texture/hero4_2.png",
+                "cc.Texture2D"
+            ],
+            "3f6eb90e-5896-4b3a-ad47-90aed6f36f66": [
+                "Texture/hero5_1.png",
+                "cc.Texture2D"
+            ],
+            "76e6fac4-9db6-461a-90db-124a1648bfab": [
+                "Texture/hero5_2.png",
+                "cc.Texture2D"
+            ],
+            "479f5c01-84da-4c15-8318-31ea6d86a22e": [
+                "Texture/hero6_1.png",
+                "cc.Texture2D"
+            ],
+            "ae18a243-c0de-44af-87b1-d78f246360e7": [
+                "Texture/hero6_2.png",
+                "cc.Texture2D"
+            ],
+            "29d03c9b-54a8-4fb1-8069-2412d74e1117": [
+                "Texture/hero_bomb/hero1_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "1ac9616c-afd9-484e-8419-60761349a258": [
+                "Texture/hero_bomb/hero1_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "219a074a-d724-42fb-9431-2bf345640004": [
+                "Texture/hero_bomb/hero1_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "57c0c96c-2b80-4e9d-a48d-674afebaa100": [
+                "Texture/hero_bomb/hero1_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "8ec50529-13a3-418e-a322-674aa08a1cfd": [
+                "Texture/hero_bomb/hero1_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "3c9492be-8b7f-4907-9e27-8c2604faf3e1": [
+                "Texture/hero_bomb/hero1_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "1f482e84-1ef0-4253-8ee8-4a6604a7449a": [
+                "Texture/hero_bomb/hero1_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "792ba1e3-dbd4-4852-88c4-aaccce19a8b3": [
+                "Texture/hero_bomb/hero2_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "7ff65dfc-3556-4cd7-b424-29eadb4c25df": [
+                "Texture/hero_bomb/hero2_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "9192bec3-f19a-4dbc-b274-599f92958daf": [
+                "Texture/hero_bomb/hero2_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "9a64eb5a-6493-4507-bd2f-2275703fe779": [
+                "Texture/hero_bomb/hero2_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "d8667e47-4f1b-44db-9285-d5583ee1f74d": [
+                "Texture/hero_bomb/hero2_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "efcc5dfd-d9d1-486d-8b3e-d43ce1af1c09": [
+                "Texture/hero_bomb/hero2_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "922c3c98-8aeb-4de0-8f94-7efe8b6d87f5": [
+                "Texture/hero_bomb/hero2_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "42ac688d-4b87-4331-a5bd-164be4ac7308": [
+                "Texture/hero_bomb/hero3_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "f6458054-dec0-4381-b3d0-139f25e11cb9": [
+                "Texture/hero_bomb/hero3_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "a3534d26-f747-4d17-9193-bedc48ae8416": [
+                "Texture/hero_bomb/hero3_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "df36a45f-6235-41ae-844f-b63409af947c": [
+                "Texture/hero_bomb/hero3_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "3764c4c8-960f-4a76-bcf9-7fb5aa397ca1": [
+                "Texture/hero_bomb/hero3_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "f0d41f20-48a7-4119-b028-804bdd4283b4": [
+                "Texture/hero_bomb/hero3_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "1aabcc14-c0c3-44f7-b423-3705baea9eea": [
+                "Texture/hero_bomb/hero3_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "ddb2f949-9eea-464f-9788-b9c81b39c4f1": [
+                "Texture/hero_bomb/hero4_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "95d96e84-53d1-4269-832e-a5b7155edcb0": [
+                "Texture/hero_bomb/hero4_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "b2956f23-faa1-45a6-9d4d-9609c11cb850": [
+                "Texture/hero_bomb/hero4_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "bf69e28b-cfc5-4361-aa74-a17627300fff": [
+                "Texture/hero_bomb/hero4_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "61f19b4e-8cca-4660-a200-7c9d78bf7e26": [
+                "Texture/hero_bomb/hero4_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "a63f6fb9-754e-4279-a581-2f1b8cd6efc0": [
+                "Texture/hero_bomb/hero4_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "241eee4f-fbb7-41dc-a39c-94a78969600d": [
+                "Texture/hero_bomb/hero4_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "97c9c546-cfa3-4818-8cca-83b6b7bb807c": [
+                "Texture/hero_bomb/hero5_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "6c1c0467-a364-4194-9f4f-9a562e4d7f7c": [
+                "Texture/hero_bomb/hero5_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "fe8bcffe-f36f-4728-9a67-638ed0bcd5ca": [
+                "Texture/hero_bomb/hero5_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "0c811cfc-8a33-4677-83c3-32719951ac36": [
+                "Texture/hero_bomb/hero5_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "d21816b8-a8f5-4f4a-98f8-5824f3d6b807": [
+                "Texture/hero_bomb/hero5_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "1714b76c-c83d-47f2-a308-5238f72dd04a": [
+                "Texture/hero_bomb/hero5_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "24a0114d-6db6-41c8-8a68-99eaefdc7669": [
+                "Texture/hero_bomb/hero5_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "3164a52f-a709-40cc-b165-b6177dad9391": [
+                "Texture/hero_bomb/hero6_bomb_1.png",
+                "cc.Texture2D"
+            ],
+            "0c493977-531f-4681-945e-509e525953af": [
+                "Texture/hero_bomb/hero6_bomb_2.png",
+                "cc.Texture2D"
+            ],
+            "8c3ef35b-7d80-40af-b964-277072fd34ec": [
+                "Texture/hero_bomb/hero6_bomb_3.png",
+                "cc.Texture2D"
+            ],
+            "824f576f-baeb-437a-bf92-c83ac4d7c60b": [
+                "Texture/hero_bomb/hero6_bomb_4.png",
+                "cc.Texture2D"
+            ],
+            "4d91c0ef-7965-43f1-8c90-ede368b176a3": [
+                "Texture/hero_bomb/hero6_bomb_5.png",
+                "cc.Texture2D"
+            ],
+            "2c567a3a-1131-4ae9-bed4-d895dec26e84": [
+                "Texture/hero_bomb/hero6_bomb_6.png",
+                "cc.Texture2D"
+            ],
+            "6b857fc6-e095-4346-8191-6521a1934561": [
+                "Texture/hero_bomb/hero6_bomb_7.png",
+                "cc.Texture2D"
+            ],
+            "d8088186-2cf0-45dc-af24-2723ebe2cba7": [
+                "Texture/select/atk.png",
+                "cc.Texture2D"
+            ],
+            "c2c28c63-0de5-4c8f-a57e-874163b1cab1": [
+                "Texture/select/bp_bar.png",
+                "cc.Texture2D"
+            ],
+            "c8b70ef6-252f-4b3a-a56a-09ce4c068451": [
+                "Texture/select/bp_bg.png",
+                "cc.Texture2D"
+            ],
+            "a1f74f62-a923-4b76-9091-76ab86feb21d": [
+                "Texture/select/bullet.png",
+                "cc.Texture2D"
+            ],
+            "8aaa315f-b403-4a25-8dce-7cf4dbf0de77": [
+                "Texture/select/close.png",
+                "cc.Texture2D"
+            ],
+            "e23086ec-0c19-46ac-a1fd-5d52ddad0b4a": [
+                "Texture/select/cur_hero.png",
+                "cc.Texture2D"
+            ],
+            "7c7df42e-2c3a-4ad5-ab79-e5fa7e0733ce": [
+                "Texture/select/diamond.png",
+                "cc.Texture2D"
+            ],
+            "59668931-edbb-4566-b7b0-c61ff0154bfd": [
+                "Texture/select/levelup.png",
+                "cc.Texture2D"
+            ],
+            "f37a42fd-bd77-4ae7-a1b7-305ce30e71a5": [
+                "Texture/select/lock.png",
+                "cc.Texture2D"
+            ],
+            "539beaed-7bc2-4f43-ab96-79a21bfd2f8f": [
+                "Texture/select/mask.png",
+                "cc.Texture2D"
+            ],
+            "480d6e5b-1ded-4f73-99ba-54ed5367f5b3": [
+                "Texture/select/select.png",
+                "cc.Texture2D"
+            ],
+            "20455961-819d-4409-87e1-9b8cf36db93a": [
+                "Texture/select/speed.png",
+                "cc.Texture2D"
+            ],
+            "49df9318-ce30-43cd-9fb2-28f40e5c88a9": [
+                "Texture/select/temp.png",
+                "cc.Texture2D"
+            ],
+            "0420cd60-4d0c-496f-875d-88db5f498e34": [
+                "Texture/select/unlock.png",
+                "cc.Texture2D"
+            ],
+            "2474df7b-96e4-4faf-9fb8-6b4f0bf3c9b4": [
+                "Texture/shoot.png",
+                "cc.Texture2D"
+            ],
+            "4e5b22eb-be6b-4c6a-9779-0ea81e8708b2": [
+                "Texture/shoot_background.png",
+                "cc.Texture2D"
+            ],
+            "a8027877-d8d6-4645-97a0-52d4a0123dba": [
+                "Texture/singleColor.png",
+                "cc.Texture2D"
+            ],
+            "18283332-0adc-46f5-8ac9-45a5e8f76356": [
+                "newtexture/airdrop_bullet_2_1.png",
+                "cc.Texture2D"
+            ],
+            "cdbbf335-92be-4aa8-9085-9532ba618458": [
+                "newtexture/airdrop_bullet_2_2.png",
+                "cc.Texture2D"
+            ],
+            "fecbcddb-864d-463f-8070-ebe313ca72b6": [
+                "newtexture/button_1_1.png",
+                "cc.Texture2D"
+            ],
+            "66e415eb-556c-49fa-83ed-862c3b10ee87": [
+                "newtexture/button_2_1.png",
+                "cc.Texture2D"
+            ],
+            "556d829a-11f2-49b7-a41d-8acff7928d0f": [
+                "newtexture/button_3_1.png",
+                "cc.Texture2D"
+            ],
+            "ff732280-2e41-4832-8941-aee553c0238f": [
+                "newtexture/button_4_1.png",
+                "cc.Texture2D"
+            ],
+            "71181632-c596-4026-89c7-9b078bcac490": [
+                "newtexture/diamond.png.png",
+                "cc.Texture2D"
+            ],
+            "36eec10c-e122-4938-9499-f92823363cc7": [
+                "newtexture/enemy.png",
+                "cc.Texture2D"
+            ],
+            "49e6117d-a824-42f1-8b18-dc6316d666a3": [
+                "newtexture/icon_power_1_2.png",
+                "cc.Texture2D"
+            ],
+            "dacd4b0c-477a-4bba-bbcc-a74a74b3ed6d": [
+                "newtexture/icon_power_2_2.png",
+                "cc.Texture2D"
+            ],
+            "5f6d2ef1-e19b-4886-a2e0-1b386ab073db": [
+                "newtexture/rolebreak.png",
+                "cc.Texture2D"
+            ],
+            "a9332f65-45f5-4376-989d-7e9c9b279640": [
+                "newtexture/rolenormal.png",
+                "cc.Texture2D"
+            ],
+            "803dfeef-0672-438d-b12b-5cd5f9c8450c": [
+                "newtexture/zidan_1.png",
+                "cc.Texture2D"
+            ],
+            "c3e3fc3a-e8aa-49db-870c-77123d68b104": [
+                "resources/Texture/hero1",
+                "cc.SpriteFrame",
+                1
+            ],
+            "3f38ee9f-f67a-4fc7-8bc7-e0723a578773": [
+                "resources/Texture/hero1.png",
+                "cc.Texture2D"
+            ],
+            "59087fe7-e503-4708-91c4-2a084bddf7df": [
+                "resources/Texture/hero2",
+                "cc.SpriteFrame",
+                1
+            ],
+            "00231f80-8cd3-43b5-8ede-f4200e8b3045": [
+                "resources/Texture/hero2.png",
+                "cc.Texture2D"
+            ],
+            "33aa8223-27df-468b-9b52-485ed0edd231": [
+                "resources/Texture/hero3",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1cd52112-713c-4001-9d9d-158fe8a44d59": [
+                "resources/Texture/hero3.png",
+                "cc.Texture2D"
+            ],
+            "26ba908d-cf7d-41ea-985e-76b152b54830": [
+                "resources/Texture/hero4",
+                "cc.SpriteFrame",
+                1
+            ],
+            "5fb094d8-a192-4c93-868b-fe7c8979b1b5": [
+                "resources/Texture/hero4.png",
+                "cc.Texture2D"
+            ],
+            "aad81ecd-2066-4739-896b-074b4a8b38d8": [
+                "resources/Texture/hero5",
+                "cc.SpriteFrame",
+                1
+            ],
+            "1895e220-9601-4a1d-b63e-dcca69bac950": [
+                "resources/Texture/hero5.png",
+                "cc.Texture2D"
+            ],
+            "0b52fd0b-e4a8-4ee5-9124-23764e8bc0f1": [
+                "resources/Texture/hero6",
+                "cc.SpriteFrame",
+                1
+            ],
+            "eb579f6d-867a-4585-8dca-926d02aac329": [
+                "resources/Texture/hero6.png",
+                "cc.Texture2D"
+            ],
+            "9fba4692-fd9c-4f2d-9614-54fafebd1797": [
+                "resources/prefab/hero1.prefab",
+                "cc.Prefab"
+            ],
+            "a0fe27b4-21e8-4c78-b26e-839f27e40b54": [
+                "resources/prefab/hero2.prefab",
+                "cc.Prefab"
+            ],
+            "89cc330c-6092-4059-96db-20703d51afb8": [
+                "resources/prefab/hero3.prefab",
+                "cc.Prefab"
+            ],
+            "79c1b442-fbd0-442d-b8af-b16347e4c3b7": [
+                "resources/prefab/hero4.prefab",
+                "cc.Prefab"
+            ],
+            "7b8556d1-ba3c-41a3-bef0-6214dc3dbf4a": [
+                "resources/prefab/hero5.prefab",
+                "cc.Prefab"
+            ],
+            "d7d25310-16a8-4176-9ec0-c137a9f62f59": [
+                "resources/prefab/hero6.prefab",
+                "cc.Prefab"
+            ],
+            "4557577f-fecf-400c-aae4-16cd328fdff8": [
+                "sound/achievement.mp3",
+                "cc.AudioClip"
+            ],
+            "ab5378e2-67b4-4c26-bec2-f22323b4898c": [
+                "sound/big_spaceship_flying.mp3",
+                "cc.AudioClip"
+            ],
+            "20988b39-d238-4a2d-ae28-313e23e3274b": [
+                "sound/bullet.mp3",
+                "cc.AudioClip"
+            ],
+            "d5991931-c727-4660-b88f-a374e2092735": [
+                "sound/button.mp3",
+                "cc.AudioClip"
+            ],
+            "4ab8fec8-46ee-4967-be57-ac7e60a4ff4d": [
+                "sound/enemy1_down.mp3",
+                "cc.AudioClip"
+            ],
+            "ca72137e-5d38-403c-8450-7c7885307bd3": [
+                "sound/enemy2_down.mp3",
+                "cc.AudioClip"
+            ],
+            "3168eee7-445c-43a8-bc5b-e8b080296087": [
+                "sound/enemy3_down.mp3",
+                "cc.AudioClip"
+            ],
+            "5fc919ae-6c65-4027-9f5a-b0e12ccdf9e0": [
+                "sound/game_music.mp3",
+                "cc.AudioClip"
+            ],
+            "6a4a402d-1477-437b-8f40-f4f80d3c5352": [
+                "sound/game_over.mp3",
+                "cc.AudioClip"
+            ],
+            "d73953e4-9d56-44b6-933d-63e52e9fcba8": [
+                "sound/get_bomb.mp3",
+                "cc.AudioClip"
+            ],
+            "3025f9c9-e499-410b-a139-71ace217bdad": [
+                "sound/get_double_laser.mp3",
+                "cc.AudioClip"
+            ],
+            "52e4cb77-cca8-406b-977d-3adef4ccc757": [
+                "sound/out_porp.mp3",
+                "cc.AudioClip"
+            ],
+            "69c3fcf7-258a-4983-afd7-d8a77a9b96fb": [
+                "sound/use_bomb.mp3",
+                "cc.AudioClip"
+            ]
+        },
+        internal: {
+            "71561142-4c83-4933-afca-cb7a17f67053": [
+                "image/default_btn_disabled.png",
+                "cc.Texture2D"
+            ],
+            "e851e89b-faa2-4484-bea6-5c01dd9f06e2": [
+                "image/default_btn_normal.png",
+                "cc.Texture2D"
+            ],
+            "b43ff3c2-02bb-4874-81f7-f2dea6970f18": [
+                "image/default_btn_pressed.png",
+                "cc.Texture2D"
+            ],
+            "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": [
+                "image/default_panel.png",
+                "cc.Texture2D"
+            ],
+            "cfef78f1-c8df-49b7-8ed0-4c953ace2621": [
+                "image/default_progressbar.png",
+                "cc.Texture2D"
+            ],
+            "99170b0b-d210-46f1-b213-7d9e3f23098a": [
+                "image/default_progressbar_bg.png",
+                "cc.Texture2D"
+            ],
+            "567dcd80-8bf4-4535-8a5a-313f1caf078a": [
+                "image/default_radio_button_off.png",
+                "cc.Texture2D"
+            ],
+            "9d60001f-b5f4-4726-a629-2659e3ded0b8": [
+                "image/default_radio_button_on.png",
+                "cc.Texture2D"
+            ],
+            "0291c134-b3da-4098-b7b5-e397edbe947f": [
+                "image/default_scrollbar.png",
+                "cc.Texture2D"
+            ],
+            "4bab67cb-18e6-4099-b840-355f0473f890": [
+                "image/default_scrollbar_bg.png",
+                "cc.Texture2D"
+            ],
+            "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": [
+                "image/default_scrollbar_vertical.png",
+                "cc.Texture2D"
+            ],
+            "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": [
+                "image/default_scrollbar_vertical_bg.png",
+                "cc.Texture2D"
+            ],
+            "6e056173-d285-473c-b206-40a7fff5386e": [
+                "image/default_sprite.png",
+                "cc.Texture2D"
+            ],
+            "0275e94c-56a7-410f-bd1a-fc7483f7d14a": [
+                "image/default_sprite_splash.png",
+                "cc.Texture2D"
+            ],
+            "73a0903d-d80e-4e3c-aa67-f999543c08f5": [
+                "image/default_toggle_checkmark.png",
+                "cc.Texture2D"
+            ],
+            "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": [
+                "image/default_toggle_disabled.png",
+                "cc.Texture2D"
+            ],
+            "d29077ba-1627-4a72-9579-7b56a235340c": [
+                "image/default_toggle_normal.png",
+                "cc.Texture2D"
+            ],
+            "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": [
+                "image/default_toggle_pressed.png",
+                "cc.Texture2D"
+            ],
+            "2be36297-9abb-4fee-8049-9ed5e271da8a": [
+                "misc/default_video.mp4",
+                "cc.RawAsset"
+            ],
+            "b8223619-7e38-47c4-841f-9160c232495a": [
+                "obsolete/atom.plist",
+                "cc.ParticleAsset"
+            ],
+            "b2687ac4-099e-403c-a192-ff477686f4f5": [
+                "particle/atom.plist",
+                "cc.ParticleAsset"
+            ]
+        }
+    },
+    launchScene: "db://assets/Scene/end.fire",
+    scenes: [
+        {
+            url: "db://assets/Scene/end.fire",
+            uuid: "f894eefe-bad7-43ed-8bd5-94cf2147d772"
+        },
+        {
+            url: "db://assets/Scene/historyScore.fire",
+            uuid: "b2280733-4857-43c7-8f25-6f40c8ea5c6b"
+        },
+        {
+            url: "db://assets/Scene/main.fire",
+            uuid: "54de3c84-52fa-4b60-937d-dc0d4cc5c0d5"
+        },
+        {
+            url: "db://assets/Scene/start.fire",
+            uuid: "2d2f792f-a40c-49bb-a189-ed176a246e49"
+        }
+    ],
+    debug: true
+};

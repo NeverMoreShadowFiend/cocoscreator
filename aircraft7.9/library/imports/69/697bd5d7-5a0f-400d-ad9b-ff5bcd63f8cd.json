@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "enemy1_bomb_6",
+    "texture": "36eec10c-e122-4938-9499-f92823363cc7",
+    "atlas": "219f2ca6-6034-4b15-b66a-5662baf128b8",
+    "rect": [
+      826,
+      671,
+      100,
+      85
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      112,
+      97
+    ],
+    "rotated": 1
+  }
+}

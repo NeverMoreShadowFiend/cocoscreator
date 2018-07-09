@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "hero5_blowup",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5166666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "9900f078-91bc-4a47-bc7c-a9f2706c60d8"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "4c4e1c42-4c13-468f-9002-9d133c1d554e"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "11d389de-7e11-4844-ad1a-1af87c008f1f"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "3f460a7b-1a75-40dc-ac8f-6c58d3406606"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "dfd01108-0c69-4a97-a387-643e5b34c845"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "a4a4d338-face-4636-88f0-5dd174853d8a"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "2ddd51cf-4a1e-4a97-94bc-45f6a60ff7ad"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

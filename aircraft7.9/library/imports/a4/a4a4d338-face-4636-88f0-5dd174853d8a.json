@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "hero5_bomb_6",
+    "texture": "1714b76c-c83d-47f2-a308-5238f72dd04a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      152,
+      130
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      153,
+      130
+    ]
+  }
+}

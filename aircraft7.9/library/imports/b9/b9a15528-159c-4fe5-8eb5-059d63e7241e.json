@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rolenormal",
+    "texture": "a9332f65-45f5-4376-989d-7e9c9b279640",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      686,
+      256
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      688,
+      256
+    ]
+  }
+}

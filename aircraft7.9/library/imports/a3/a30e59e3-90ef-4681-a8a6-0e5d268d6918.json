@@ -1,0 +1,23 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lv2_bomb_1_2",
+    "texture": "5f6d2ef1-e19b-4886-a2e0-1b386ab073db",
+    "atlas": "2d5060a7-d986-4169-8b45-82ba7ae71eee",
+    "rect": [
+      366,
+      229,
+      117,
+      104
+    ],
+    "offset": [
+      0,
+      -11
+    ],
+    "originalSize": [
+      153,
+      130
+    ],
+    "rotated": 1
+  }
+}
